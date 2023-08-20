@@ -20,6 +20,7 @@ return {
         -- "mini",
         -- "neogit",
         -- "neorg",
+        "lazygit",
         "nvim-cmp",
         -- "nvim-navic",
         "nvim-tree",
