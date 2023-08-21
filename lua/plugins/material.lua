@@ -17,18 +17,17 @@ return {
         "hop",
         -- "indent-blankline",
         -- "lspsaga",
-        -- "mini",
-        -- "neogit",
+        "mini",
+        "neogit",
         -- "neorg",
-        -- "lazygit",
         "nvim-cmp",
-        -- "nvim-navic",
+        "nvim-navic",
         "nvim-tree",
-        -- "nvim-web-devicons",
-        -- "sneak",
+        "nvim-web-devicons",
+        "sneak",
         "telescope",
         "trouble",
-        -- "which-key",
+        "which-key",
       },
       high_visibility = {
         lighter = false, -- Enable higher contrast text for lighter style
@@ -38,9 +37,11 @@ return {
         comments = { italic = true },
         strings = {},
         keywords = {},
-        functions = {},
+        functions = { italic = true },
         variables = {},
-        types = {},
+        types = {
+          bold = true,
+        },
       },
       custom_colors = function(colors)
         colors.syntax.comments = "#9298ad"
