@@ -4,12 +4,12 @@ return {
     opts = {
       contrast = {
         terminal = true,
-        sidebars = true,            -- Enable contrast for sidebar-like windows ( for example Nvim-Tree )
-        floating_windows = true,    -- Enable contrast for floating windows
-        cursor_line = true,         -- Enable darker background for the cursor line
+        sidebars = true, -- Enable contrast for sidebar-like windows ( for example Nvim-Tree )
+        floating_windows = true, -- Enable contrast for floating windows
+        cursor_line = true, -- Enable darker background for the cursor line
         non_current_windows = true, -- Enable darker background for non-current windows
       },
-      plugins = {                   -- Uncomment the plugins that you use to highlight them
+      plugins = { -- Uncomment the plugins that you use to highlight them
         -- Available plugins:
         -- "dap",
         -- "dashboard",
@@ -20,7 +20,7 @@ return {
         -- "mini",
         -- "neogit",
         -- "neorg",
-        "lazygit",
+        -- "lazygit",
         "nvim-cmp",
         -- "nvim-navic",
         "nvim-tree",
@@ -32,7 +32,7 @@ return {
       },
       high_visibility = {
         lighter = false, -- Enable higher contrast text for lighter style
-        darker = true    -- Enable higher contrast text for darker style
+        darker = true, -- Enable higher contrast text for darker style
       },
       styles = {
         comments = { italic = true },
@@ -46,7 +46,7 @@ return {
         colors.syntax.comments = "#9298ad"
         colors.editor.fg = "#dddfed"
       end,
-    }
+    },
   },
   {
     "LazyVim/LazyVim",
