@@ -36,9 +36,9 @@ return {
       },
       styles = {
         comments = { italic = true },
-        strings = { bold = true },
-        keywords = { underline = true },
-        functions = { bold = true, undercurl = true },
+        strings = {},
+        keywords = {},
+        functions = {},
         variables = {},
         types = {},
       },

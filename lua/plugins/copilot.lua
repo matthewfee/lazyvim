@@ -6,8 +6,8 @@ return {
     opts = {
       suggestion = {
         auto_trigger = true,
-      }
-    }
+      },
+    },
   },
   {
     "zbirenbaum/copilot-cmp",
