@@ -7,10 +7,10 @@ return {
       ---@type lspconfig.options
       servers = {
         volar = {
-          on_attach = function(client, bufnr)
-            custom_attach(client, bufnr, { allowed_clients = { "efm" } })
-          end,
           filetypes = { "typescript", "javascript", "vue" },
+        },
+        graphql = {
+          filetypes = { "typescript", "javascript", "graphql" },
         },
       },
     },

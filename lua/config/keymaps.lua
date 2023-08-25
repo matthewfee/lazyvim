@@ -18,7 +18,6 @@ local function map(mode, lhs, rhs, opts)
   end
 end
 
-
 map("i", "jk", "<Esc>", { silent = true })
 map("i", "kj", "<Esc>", { silent = true })
 map("n", "<leader>q", ":q<CR>")
