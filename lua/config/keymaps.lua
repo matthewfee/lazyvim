@@ -21,3 +21,6 @@ end
 map("i", "jk", "<Esc>", { silent = true })
 map("i", "kj", "<Esc>", { silent = true })
 map("n", "<leader>q", ":q<CR>")
+
+-- turn off virtual diagnostics text
+map("n", "tt", "<plug>(toggle-lsp-diag-vtext)")
