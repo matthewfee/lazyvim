@@ -6,12 +6,9 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        volar = {
-          filetypes = { "typescript", "javascript", "vue" },
-        },
-        graphql = {
-          filetypes = { "typescript", "javascript", "graphql" },
-        },
+        volar = {},
+        graphql = {},
+        tailwindcss = {},
       },
     },
   },
