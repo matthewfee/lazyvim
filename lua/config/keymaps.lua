@@ -32,3 +32,5 @@ end
 
 -- hello world
 map("n", "<leader>hw", helloWorld)
+
+map("n", "<leader>cp", "<cmd>Copilot panel<CR>")
