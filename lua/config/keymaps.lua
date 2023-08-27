@@ -24,3 +24,11 @@ map("n", "<leader>q", ":q<CR>")
 
 -- turn off virtual diagnostics text
 map("n", "tt", "<plug>(toggle-lsp-diag-vtext)")
+
+local function helloWorld()
+  -- echo hello world
+  vim.cmd("echo 'Hello World!'")
+end
+
+-- hello world
+map("n", "<leader>hw", helloWorld)
