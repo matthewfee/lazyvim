@@ -9,6 +9,9 @@ return {
         volar = {},
         graphql = {},
         tailwindcss = {},
+        intelephense = {
+          filetypes = { "php" },
+        },
       },
     },
   },
