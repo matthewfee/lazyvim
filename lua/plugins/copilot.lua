@@ -9,7 +9,7 @@ return {
         auto_trigger = true,
         debounce = 25,
         keymap = {
-          accept = "<C-;>",
+          accept = "<C-l>",
         },
       },
       panel = {

@@ -7,7 +7,9 @@ return {
       ---@type lspconfig.options
       servers = {
         volar = {},
-        graphql = {},
+        graphql = {
+          filetypes = { "graphql", "javascript", "javascriptreact", "typescript", "typescriptreact" },
+        },
         tailwindcss = {},
         intelephense = {
           filetypes = { "php" },

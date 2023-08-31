@@ -6,6 +6,11 @@ return {
       defaults = {
         path_display = { "truncate" },
       },
+      pickers = {
+        colorscheme = {
+          enable_preview = true,
+        },
+      },
     },
   },
 }
