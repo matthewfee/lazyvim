@@ -6,7 +6,7 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        volar = {},
+        -- volar = {},
         graphql = {
           filetypes = { "graphql", "javascript", "javascriptreact", "typescript", "typescriptreact" },
         },
