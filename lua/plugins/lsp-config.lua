@@ -6,12 +6,11 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        -- volar = {},
         graphql = {
           filetypes = { "graphql", "javascript", "javascriptreact", "typescript", "typescriptreact" },
         },
         tailwindcss = {},
-        intelephense = {
+        phpactor = {
           filetypes = { "php" },
         },
       },
